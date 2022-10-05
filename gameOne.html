@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game One</title>
+</head>
+<header>
+    <div class="topnav">
+        <img id="logo" src="./image/309570222_830685044732903_1553534324938872468_n.jpg">
+        <a href="./index.html">
+            <button>Back</button>
+        </a>
+    </div>
+</header>
+
+<body>
+    <div class="instructions">
+        <ul>
+            <li>Pick and measure a distance</li>
+            <li>Throw 10 putts and record below</li>
+            <li>Hit Save Score and keep playing</li>
+        </ul>
+    </div>
+    <div class="dashboard">
+        <div>
+            <label>How many feet were you?</label>
+            <input type="text" id="distance" name="distance" max="60" height="25px">
+            <label>How many putts out of 10 did you make?</label>
+            <input type="text" id="puttsMade" name="puttsMade" max="10">
+            <label>First Made?<input type="checkbox" id="firstMade" name="firstMade" value="1"></label>
+            <label>Last Made?<input type="checkbox" id="lastMade" name="lasyMade" value="1"></label>
+            <label>All Made?<input type="checkbox" id="allMade" name="allMade" value="3"></label>
+            <p id="score" style="height: 30px;"></p>
+            <button onclick="test()" id="submit">Save Score!</button>
+        </div>
+    </div>
+</body>
+<footer>
+    <p>
+        Designed and hosted by:<br>
+        PuttPuttPerfect
+    </p>
+</footer>
+<script src="./assets/script.js"></script>
+
+</html>

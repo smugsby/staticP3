@@ -1,0 +1,133 @@
+body header footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    height: 100px;
+    display: flex;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
+}
+
+.topnav button {
+    width: 60px;
+    margin: 10px;
+    height: 30px;
+    border-radius: 15px;
+    border-width: 3px;
+    background-color: #D01F27;
+    font-size: 15px;
+    font-weight: bolder;
+    color: aliceblue;
+    box-shadow: 2px 2px #212d5f;
+}
+
+.topnav img {
+    justify-content: center;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: black;
+    padding: 32px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    align-items: center;
+    font-weight: bolder;
+    justify-content: space-between;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #212d5f;
+    color: black;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 25px;
+}
+
+.instructions {
+    font-size: 15px;
+    font-weight: bold;
+    margin: auto;
+    align-content: center;
+}
+
+.dashboard div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: 25px;
+    align-content: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #212d5f;
+    /* box-shadow: 7px 7px #212d5f;
+    border-radius: 15px;
+    border-color: #212d5f; */
+}
+
+.dashboard div input {
+    margin: 20px;
+}
+
+.checkmark {
+    margin: 25px;
+}
+
+.dashboard button {
+    width: 66%;
+    margin: 25px;
+    height: 100px;
+    align-content: center;
+    border-radius: 15px;
+    border-width: 3px;
+    background-color: #D01F27;
+    font-size: 30px;
+    font-weight: bolder;
+    color: aliceblue;
+    box-shadow: 7px 7px #212d5f;
+}
+
+.dashboard button:focus {
+    width: auto;
+    margin: 25px;
+    height: 100px;
+    align-content: center;
+    border-radius: 15px;
+    border-width: 7px;
+    background-color: #D01F27;
+    font-size: 45px;
+    color: #212d5f;
+    font-weight: bolder;
+    box-shadow: 11px 11px #212d5f;
+}
+
+#distance {
+    max-width: 100px;
+}
+
+#puttsMade {
+    max-width: 100px;
+}
+
+/* Add a color to the active/current link */
