@@ -30,7 +30,7 @@ function test() {
     var feetMutli = (dist / 10);
     //input total
     var inputTotal = (parseInt(putt) + parseInt(first) + parseInt(last) + parseInt(all));
-    var totalScore = (feetMutli * inputTotal);
+    var totalScore = parseInt((feetMutli * inputTotal));
     // alert("this is dist" + dist)
     // alert("this is putt" + putt)
     // alert("this is first" + first)
@@ -44,5 +44,16 @@ function test() {
     outputEl.innerHTML = totalScore;
     // var scoreEl = document.getElementById("submit");
     // scoreEl.innerHTML = totalScore;
+    var scoreCheck = localStorage.getItem('savedScore');
+    if (totalScore > scoreCheck)
+        localStorage.setItem('savedScore', totalScore);
+    else
+        return
 };
 
+var highEl = document.getElementById("highScore");
+highEl.innerHTML = localStorage.getItem('savedScore');
+
+function reset() {
+    localStorage.removeItem('savedScore');
+}
