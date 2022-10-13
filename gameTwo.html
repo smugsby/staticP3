@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game One</title>
+</head>
+<header>
+    <div class="topnav">
+        <img id="logo" src="./image/309570222_830685044732903_1553534324938872468_n.jpg">
+        <a href="./index.html">
+            <button>Back</button>
+        </a>
+    </div>
+</header>
+
+<body>
+    <div class="instructions">
+        <ul>
+            <li>Pick and measure a distance</li>
+            <li>Throw 10 putts and record below</li>
+            <li>Hit Save Score and keep playing</li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <div>
+                <div class="selections">
+                    <p class="selectDisplay">Select disc speed</p>
+                    <label>Putter<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>Mids<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>Fairways<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>distance<input type="checkbox" id="firstMade" name="firstMade"></label>
+                </div>
+                <div class="selections">
+                    <p>Select Throw type</p>
+                    <label>BH<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>FH<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>OH<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>Choice<input type="checkbox" id="firstMade" name="firstMade"></label>
+                </div>
+                <div class="selections">
+                    <p>Select Disc type</p>
+                    <label>Stable<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>OS<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>US<input type="checkbox" id="firstMade" name="firstMade"></label>
+                    <label>Choice<input type="checkbox" id="firstMade" name="firstMade"></label>
+                </div>
+            </div>
+        </div>
+        <p id="score" style="height: 30px;">
+        </p>
+        <div class="dashboard">
+            <button onclick="test()" id="submit">Save Score!</button>
+        </div>
+    </div>
+    </div>
+</body>
+<footer>
+    <p>
+        Designed and hosted by:<br>
+        PuttPuttPerfect
+    </p>
+</footer>
+<script src="./assets/script.js"></script>
+
+</html>

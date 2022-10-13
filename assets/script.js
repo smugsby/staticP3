@@ -39,10 +39,10 @@ function test() {
     // alert("this is feetmulti" + feetMutli)
     // alert("this is inputTotal" + inputTotal)
     // alert("this is totalScore" + totalScore)
-    alert(totalScore);
+    // alert(totalScore);
     var outputEl = document.getElementById("score");
     outputEl.innerHTML = totalScore;
-    var scoreEl = document.getElementById("submit");
-    scoreEl.innerHTML = totalScore;
+    // var scoreEl = document.getElementById("submit");
+    // scoreEl.innerHTML = totalScore;
 };
 

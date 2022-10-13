@@ -94,6 +94,8 @@ footer {
     margin: 25px;
 }
 
+
+
 .dashboard button {
     width: 66%;
     margin: 25px;
@@ -120,6 +122,42 @@ footer {
     color: #212d5f;
     font-weight: bolder;
     box-shadow: 11px 11px #212d5f;
+}
+
+.row {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    flex-direction: row;
+    width: auto;
+}
+
+.selections {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    flex-direction: column;
+    margin: 10px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.selectDisplay {
+    background-color: #D01F27;
+    color: #212d5f;
+    width: 80%;
+    font-size: 30px;
+    height: auto;
+    border-radius: 15px;
+    border-color: #212d5f;
+    border-width: 2px;
+    border-style: solid;
+    font-weight: bolder;
+    margin: 15px, auto, 15px, 15px;
 }
 
 #distance {
